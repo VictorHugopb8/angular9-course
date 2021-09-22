@@ -37,6 +37,8 @@ import { registerLocaleData } from '@angular/common';
 import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
 import { MatDialogModule, MatDialogRef } from '@angular/material/dialog';
 import { DialogDeleteComponent } from './components/core/dialog-delete/dialog-delete.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { DashboardCrudComponent } from './views/dashboard-crud/dashboard-crud.component';
 
 registerLocaleData(localePt);
 
@@ -54,7 +56,9 @@ registerLocaleData(localePt);
     ProductReadComponent,
     ProductRead2Component,
     ProductUpdateComponent,
-    DialogDeleteComponent
+    DialogDeleteComponent,
+    DashboardComponent,
+    DashboardCrudComponent
   ],
   imports: [
     BrowserModule,
