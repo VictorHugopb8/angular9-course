@@ -2,6 +2,7 @@
     display: flex;
     position: fixed;
     z-index: 4;
+    background-color: #2f6c99;
 }
 
 .header a {
@@ -17,8 +18,14 @@
 
 .header .title-group {
     padding-left: 25px;
+    color: white;
 }
 
 .header .title-group i {
     padding-right: 5px;
+    color: white;
+}
+
+.header .title {
+    color: white
 }

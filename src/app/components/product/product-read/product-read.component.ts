@@ -1,4 +1,4 @@
-import { Product } from './../product.model';
+import { Product } from '../product.model';
 import { Component, OnInit, Inject } from '@angular/core';
 import { ProductService } from '../product.service';
 import { MatDialog, MAT_DIALOG_DATA } from '@angular/material/dialog';
